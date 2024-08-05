@@ -1,11 +1,9 @@
-let SomaFunc = require("./soma");
-let SubFunc =  require("./sub");
-let divFunc = require("./div");
-let multiFunc = require("./multi");
+let calculadora = require("./calculadora");
 
 
-console.log(SomaFunc(1,2));
-console.log(SubFunc(30,2));
-console.log(multiFunc(50,2));
-console.log(divFunc(100,2));
+
+console.log(calculadora.soma(1,2));
+console.log(calculadora.sub(30,2));
+console.log(calculadora.div(50,2));
+console.log(calculadora.multi(100,2));
 
